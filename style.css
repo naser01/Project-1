@@ -1,0 +1,115 @@
+h1 {
+    text-align: center;
+    margin-top: 5px;
+    padding: 10px 50px 0px 0px;
+    color:white;
+    font-size: 3.0rem;
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: sans-serif;
+}
+
+.background-image {
+    background: url(images/iswanto-arif--lo1DX8qIl0-unsplash.jpg)  100% 100% no-repeat;
+}
+
+
+.header__logo {
+    margin-left: 64px;
+    height: 72px;
+    display: block; 
+}
+
+.block-1 {
+    height: 500px;
+    background-color: #304354;
+    margin: 0px 20px 0px 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.block-2 {
+    height: 450px;
+    background-color:white;
+    margin: 0px 20px 0px 20px;
+}
+
+.block-3 {
+    height: 450px;
+    background-color: #304354;
+    margin: 0px 20px 30px 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+@keyframes right-to-left {
+    0% { padding: 19px 0px; }
+    50% { padding: 19px 3px; }
+    75% { padding: 19px px; }
+    100% { padding: 19px 10px; }
+  }
+@keyframes fadein {
+    0% { opacity: 0; }
+    50% { opacity: 0.35; }
+    75% { opacity: 0.7; }
+    100% { opacity: 1; }
+}
+
+.nav-bar {
+    height: 70px;
+    width: 700px;
+    background-color:rgba(0, 0, 0, 0.7);
+    display: block;
+    margin: 50px 15px 0px 0px;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    float: right;
+}
+
+.nav-bar li  {
+    display: inline;
+}
+
+.nav-bar li a  {
+    color: white;
+    padding: 19px 10px;
+    text-decoration: none;
+    font-size: 25px;
+    float: left;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.2;
+    font-family: sans-serif;
+    animation-name: right-to-left, fadein;
+    animation-duration: 1s;
+}
+
+.nav-bar li a:hover  {
+	color: turquoise;
+}
+
+.vl {
+    border-left: 3px solid white;
+    height: 50px;
+    position: absolute;
+    margin-left: -3px;
+    margin-top: 10px;
+}
+
+.text-align-center{
+    text-align: center;
+    color: white;
+    margin-right: 35px;
+}
+
+.resort li {
+    display: table;
+    flex: 33.33%;
+    width: 33.33%;
+    float: left;
+    margin-top: 15px;
+}
+
+
+
